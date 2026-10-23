@@ -4,7 +4,7 @@ pipeline {
         booleanParam(name: 'PUBLISH_IMAGE', defaultValue: false, description: 'Push image to Docker Hub (requires Jenkins credential dockerhub-creds)')
     }
     environment {
-        IMAGE_NAME = 'REPLACE_WITH_DOCKERHUB_USERNAME/carepoint-portal'
+        IMAGE_NAME = 'polusoneesh/carepoint-portal'
     }
     stages {
         stage('Checkout') { steps { checkout scm } }

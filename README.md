@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CarePoint Healthcare Portal — Enhanced UI
 
 ## Pages
@@ -31,3 +32,6 @@ Appointments are stored in `sessionStorage` for the current browser session only
 
 ## Jenkins
 Push to GitHub, create a Jenkins Pipeline job, and replace `REPLACE_WITH_DOCKERHUB_USERNAME` in the Jenkinsfile. To publish, create a Jenkins username/password credential named `dockerhub-creds` and use a Docker Hub access token as the password. Enable `PUBLISH_IMAGE` only when ready.
+=======
+# PBL-3
+>>>>>>> 752920630ba9e79bf05c5934ba4e6cee8d456c59
